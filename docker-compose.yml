@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: SurveyTesting.ApiLayer/Dockerfile
     environment:
-      - DB_CS=Host=host.docker.internal;Port=5432;Database=SurveyTesting;Username=postgres;Password=627Corrupted627!
+      - DB_CS=Host=host.docker.internal;Port=5432;Database=SurveyTesting;Username=postgres;Password=
     volumes:
       - ./logs:/app/logs
     ports:
