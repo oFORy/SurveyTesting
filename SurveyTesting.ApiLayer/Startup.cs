@@ -2,6 +2,10 @@
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using SurveyTesting.DataLayer;
+using SurveyTesting.DataLayer.Functions.Functions;
+using SurveyTesting.DataLayer.Functions.Interfaces;
+using SurveyTesting.ServiceLayer.Services.Interfaces;
+using SurveyTesting.ServiceLayer.Services.Services;
 
 namespace SurveyTesting.ApiLayer
 {
@@ -45,7 +49,7 @@ namespace SurveyTesting.ApiLayer
                     Description = "ASP.NET Core Web API",
                     Contact = new OpenApiContact
                     {
-                        Name = "Kopyl Sergey",
+                        Name = "Kopyl Sergey, my telegram",
                         Email = string.Empty,
                         Url = new Uri("https://t.me/ofory_p"),
                     },
@@ -70,8 +74,12 @@ namespace SurveyTesting.ApiLayer
                 .EnableDetailedErrors());
 
             /// DataFunctions
+            services.AddScoped<IQuestionFunc>(provider => new QuestionFunc(baseDbOptions));
+            services.AddScoped<IResultFunc>(provider => new ResultFunc(baseDbOptions));
 
             /// Services
+            services.AddScoped<IQuestionService, QuestionService>();
+            services.AddScoped<IResultService, ResultService>();
 
         }
 
