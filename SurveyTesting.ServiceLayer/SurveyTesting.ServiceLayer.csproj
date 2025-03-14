@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SurveyTesting.DataLayer\SurveyTesting.DataLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Services\" />
+  </ItemGroup>
+
 </Project>

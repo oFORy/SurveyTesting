@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  surveytesting.apilayer:
+    image: ${DOCKER_REGISTRY-}surveytestingapilayer
+    build:
+      context: .
+      dockerfile: SurveyTesting.ApiLayer/Dockerfile
+    environment:
+      - DB_CS=Host=host.docker.internal;Port=5432;Database=SurveyTesting;Username=postgres;Password=627Corrupted627!
+    volumes:
+      - ./logs:/app/logs
+    ports:
+      - "23627:8080"
+      - "23628:8081"
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    external: true

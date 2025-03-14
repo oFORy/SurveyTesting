@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyTesting.DataLayer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyTesting.ServiceLayer", "SurveyTesting.ServiceLayer\SurveyTesting.ServiceLayer.csproj", "{C9DF4BFE-BB1F-40E4-B821-4D82BE7582FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyTesting.ApiLayer", "SurveyTesting.ApiLayer\SurveyTesting.ApiLayer.csproj", "{03C254D7-16F1-4D0C-9CB0-CB2DDDD1895A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{30A4C08B-C42A-43F1-BD66-119CC52DD248}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C9DF4BFE-BB1F-40E4-B821-4D82BE7582FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9DF4BFE-BB1F-40E4-B821-4D82BE7582FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9DF4BFE-BB1F-40E4-B821-4D82BE7582FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C254D7-16F1-4D0C-9CB0-CB2DDDD1895A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C254D7-16F1-4D0C-9CB0-CB2DDDD1895A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C254D7-16F1-4D0C-9CB0-CB2DDDD1895A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C254D7-16F1-4D0C-9CB0-CB2DDDD1895A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A4C08B-C42A-43F1-BD66-119CC52DD248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A4C08B-C42A-43F1-BD66-119CC52DD248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A4C08B-C42A-43F1-BD66-119CC52DD248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A4C08B-C42A-43F1-BD66-119CC52DD248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
