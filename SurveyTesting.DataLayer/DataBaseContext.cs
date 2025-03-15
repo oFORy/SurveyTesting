@@ -21,12 +21,23 @@ namespace SurveyTesting.DataLayer
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            #region First Data
+
             modelBuilder.Entity<Survey>()
                 .HasData(new Survey
                 {
                     Id = 1,
                     Name = "Пример анкеты",
                     Description = "Описание примера анкеты"
+                });
+
+            modelBuilder.Entity<Interview>()
+                .HasData(new Interview
+                {
+                    Id = 1,
+                    UserId = 1,
+                    SurveyId = 1,
+                    PassingDate = DateTime.Now,
                 });
 
             modelBuilder.Entity<Question>()
@@ -84,6 +95,7 @@ namespace SurveyTesting.DataLayer
                     new Answer { Id = 14, Text = "Да", Order = 1, QuestionId = 3 },
                     new Answer { Id = 15, Text = "Нет", Order = 2, QuestionId = 3 }
                 });
+            #endregion
         }
     }
 }

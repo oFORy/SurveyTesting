@@ -18,9 +18,11 @@ namespace SurveyTesting.DataLayer.Functions.Interfaces
         }
 
         /// <inheritdoc/>
-        public Task SaveResultAsync(Result result)
+        public async Task SaveResultAsync(Result result)
         {
-            throw new NotImplementedException();
+            using DataBaseContext db = new DataBaseContext(_options);
+            await db.Results.AddAsync(result);
+            await db.SaveChangesAsync();
         }
     }
 }

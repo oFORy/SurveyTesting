@@ -143,16 +143,21 @@ namespace SurveyTesting.DataLayer.Migrations
             migrationBuilder.InsertData(
                 table: "Surveys",
                 columns: new[] { "Id", "CreateDateTime", "DeleteDateTime", "Description", "Name", "UpdateDateTime" },
-                values: new object[] { 1, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9723), new TimeSpan(0, 0, 0, 0, 0)), null, "Описание примера анкеты", "Пример анкеты", null });
+                values: new object[] { 1, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7330), new TimeSpan(0, 0, 0, 0, 0)), null, "Описание примера анкеты", "Пример анкеты", null });
+
+            migrationBuilder.InsertData(
+                table: "Interviews",
+                columns: new[] { "Id", "CompletionDate", "CreateDateTime", "DeleteDateTime", "PassingDate", "SurveyId", "UpdateDateTime", "UserId" },
+                values: new object[] { 1, null, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7427), new TimeSpan(0, 0, 0, 0, 0)), null, new DateTimeOffset(new DateTime(2025, 3, 15, 13, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7430), new TimeSpan(0, 3, 0, 0, 0)), 1, null, 1 });
 
             migrationBuilder.InsertData(
                 table: "Questions",
                 columns: new[] { "Id", "CreateDateTime", "DeleteDateTime", "Order", "SurveyId", "Text", "UpdateDateTime" },
                 values: new object[,]
                 {
-                    { 1, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9837), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 1, "В каком регионе Вы проживаете?", null },
-                    { 2, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9840), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 1, "Сколько вам лет?", null },
-                    { 3, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9841), new TimeSpan(0, 0, 0, 0, 0)), null, 3, 1, "Готовы к переезду?", null }
+                    { 1, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7506), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 1, "В каком регионе Вы проживаете?", null },
+                    { 2, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7507), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 1, "Сколько вам лет?", null },
+                    { 3, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7508), new TimeSpan(0, 0, 0, 0, 0)), null, 3, 1, "Готовы к переезду?", null }
                 });
 
             migrationBuilder.InsertData(
@@ -160,21 +165,21 @@ namespace SurveyTesting.DataLayer.Migrations
                 columns: new[] { "Id", "CreateDateTime", "DeleteDateTime", "Order", "QuestionId", "Text", "UpdateDateTime" },
                 values: new object[,]
                 {
-                    { 1, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9855), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 1, "Москва", null },
-                    { 2, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9857), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 1, "Московская область", null },
-                    { 3, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9858), new TimeSpan(0, 0, 0, 0, 0)), null, 3, 1, "Санкт-Петербург", null },
-                    { 4, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9859), new TimeSpan(0, 0, 0, 0, 0)), null, 4, 1, "Ленинградская область", null },
-                    { 5, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9860), new TimeSpan(0, 0, 0, 0, 0)), null, 5, 1, "Рязанская область", null },
-                    { 6, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9861), new TimeSpan(0, 0, 0, 0, 0)), null, 6, 1, "Владимирская область", null },
-                    { 7, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9862), new TimeSpan(0, 0, 0, 0, 0)), null, 7, 1, "Тульская область", null },
-                    { 8, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9863), new TimeSpan(0, 0, 0, 0, 0)), null, 8, 1, "Другой регион", null },
-                    { 9, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9879), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 2, "18-30", null },
-                    { 10, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9880), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 2, "30-45", null },
-                    { 11, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9881), new TimeSpan(0, 0, 0, 0, 0)), null, 3, 2, "45-60", null },
-                    { 12, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9882), new TimeSpan(0, 0, 0, 0, 0)), null, 4, 2, "60-70", null },
-                    { 13, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9883), new TimeSpan(0, 0, 0, 0, 0)), null, 5, 2, "Старше 70", null },
-                    { 14, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9894), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 3, "Да", null },
-                    { 15, new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9895), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 3, "Нет", null }
+                    { 1, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7523), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 1, "Москва", null },
+                    { 2, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7525), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 1, "Московская область", null },
+                    { 3, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7527), new TimeSpan(0, 0, 0, 0, 0)), null, 3, 1, "Санкт-Петербург", null },
+                    { 4, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7528), new TimeSpan(0, 0, 0, 0, 0)), null, 4, 1, "Ленинградская область", null },
+                    { 5, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7529), new TimeSpan(0, 0, 0, 0, 0)), null, 5, 1, "Рязанская область", null },
+                    { 6, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7530), new TimeSpan(0, 0, 0, 0, 0)), null, 6, 1, "Владимирская область", null },
+                    { 7, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7531), new TimeSpan(0, 0, 0, 0, 0)), null, 7, 1, "Тульская область", null },
+                    { 8, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7532), new TimeSpan(0, 0, 0, 0, 0)), null, 8, 1, "Другой регион", null },
+                    { 9, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7547), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 2, "18-30", null },
+                    { 10, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7548), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 2, "30-45", null },
+                    { 11, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7549), new TimeSpan(0, 0, 0, 0, 0)), null, 3, 2, "45-60", null },
+                    { 12, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7550), new TimeSpan(0, 0, 0, 0, 0)), null, 4, 2, "60-70", null },
+                    { 13, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7551), new TimeSpan(0, 0, 0, 0, 0)), null, 5, 2, "Старше 70", null },
+                    { 14, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7562), new TimeSpan(0, 0, 0, 0, 0)), null, 1, 3, "Да", null },
+                    { 15, new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7563), new TimeSpan(0, 0, 0, 0, 0)), null, 2, 3, "Нет", null }
                 });
 
             migrationBuilder.CreateIndex(

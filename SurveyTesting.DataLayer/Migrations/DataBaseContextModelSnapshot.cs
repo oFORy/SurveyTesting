@@ -61,7 +61,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9855), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7523), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 1,
                             QuestionId = 1,
                             Text = "Москва"
@@ -69,7 +69,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 2,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9857), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7525), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 2,
                             QuestionId = 1,
                             Text = "Московская область"
@@ -77,7 +77,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 3,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9858), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7527), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 3,
                             QuestionId = 1,
                             Text = "Санкт-Петербург"
@@ -85,7 +85,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 4,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9859), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7528), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 4,
                             QuestionId = 1,
                             Text = "Ленинградская область"
@@ -93,7 +93,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 5,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9860), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7529), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 5,
                             QuestionId = 1,
                             Text = "Рязанская область"
@@ -101,7 +101,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 6,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9861), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7530), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 6,
                             QuestionId = 1,
                             Text = "Владимирская область"
@@ -109,7 +109,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 7,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9862), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7531), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 7,
                             QuestionId = 1,
                             Text = "Тульская область"
@@ -117,7 +117,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 8,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9863), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7532), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 8,
                             QuestionId = 1,
                             Text = "Другой регион"
@@ -125,7 +125,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 9,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9879), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7547), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 1,
                             QuestionId = 2,
                             Text = "18-30"
@@ -133,7 +133,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 10,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9880), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7548), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 2,
                             QuestionId = 2,
                             Text = "30-45"
@@ -141,7 +141,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 11,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9881), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7549), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 3,
                             QuestionId = 2,
                             Text = "45-60"
@@ -149,7 +149,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 12,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9882), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7550), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 4,
                             QuestionId = 2,
                             Text = "60-70"
@@ -157,7 +157,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 13,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9883), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7551), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 5,
                             QuestionId = 2,
                             Text = "Старше 70"
@@ -165,7 +165,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 14,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9894), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7562), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 1,
                             QuestionId = 3,
                             Text = "Да"
@@ -173,7 +173,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 15,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9895), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7563), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 2,
                             QuestionId = 3,
                             Text = "Нет"
@@ -216,6 +216,16 @@ namespace SurveyTesting.DataLayer.Migrations
                     b.HasIndex("Id", "UserId", "SurveyId");
 
                     b.ToTable("Interviews");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7427), new TimeSpan(0, 0, 0, 0, 0)),
+                            PassingDate = new DateTimeOffset(new DateTime(2025, 3, 15, 13, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7430), new TimeSpan(0, 3, 0, 0, 0)),
+                            SurveyId = 1,
+                            UserId = 1
+                        });
                 });
 
             modelBuilder.Entity("SurveyTesting.DataLayer.Models.Question", b =>
@@ -257,7 +267,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9837), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7506), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 1,
                             SurveyId = 1,
                             Text = "В каком регионе Вы проживаете?"
@@ -265,7 +275,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 2,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9840), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7507), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 2,
                             SurveyId = 1,
                             Text = "Сколько вам лет?"
@@ -273,7 +283,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 3,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9841), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7508), new TimeSpan(0, 0, 0, 0, 0)),
                             Order = 3,
                             SurveyId = 1,
                             Text = "Готовы к переезду?"
@@ -356,7 +366,7 @@ namespace SurveyTesting.DataLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 14, 15, 58, 0, 959, DateTimeKind.Unspecified).AddTicks(9723), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreateDateTime = new DateTimeOffset(new DateTime(2025, 3, 15, 10, 13, 27, 436, DateTimeKind.Unspecified).AddTicks(7330), new TimeSpan(0, 0, 0, 0, 0)),
                             Description = "Описание примера анкеты",
                             Name = "Пример анкеты"
                         });
